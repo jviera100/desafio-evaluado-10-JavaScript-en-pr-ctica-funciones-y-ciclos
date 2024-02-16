@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     formulario.addEventListener('submit', function(event) {
         event.preventDefault();
 
-        // Expresión regular para validar caracteres alfabéticos
+        // Expresión regular para validar caracteres alfabéticos se busca en wikipedia
         const regex = /^[A-Za-z\s]+$/;
 
         // Validación del nombre
